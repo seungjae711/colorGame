@@ -31,6 +31,7 @@ hardButton.addEventListener("click", function() {
 })
 
 resetButton.addEventListener("click", function() {
+    messageDisplay.textContent ="";
     reset();
 });
 
